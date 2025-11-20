@@ -62,3 +62,10 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "openssl" # bug à l'importmap pin
+
+# frontend setup
+gem "bootstrap", "~> 5.3"
+gem "simple_form"
+gem "sassc-rails"
