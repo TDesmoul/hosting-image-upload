@@ -4,11 +4,11 @@
 
 <div id="articles">
   <% @articles.each do |article| %>
-    <%= render article %>
-    <p>
-      <%= link_to "Show this article", article %>
-    </p>
+    <div class="d-flex gap-4"><span class="flex-grow-1"><%= article.title %></span><%= link_to "Show this article", article %></div>
   <% end %>
 </div>
 
-<%= link_to "New article", new_article_path %>
+<div class="mt-4">
+  <%= link_to "New article", new_article_path, class: "btn btn-primary" %>
+</div>
+
