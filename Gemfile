@@ -69,3 +69,5 @@ gem "openssl" # bug à l'importmap pin
 gem "bootstrap", "~> 5.3"
 gem "simple_form"
 gem "sassc-rails"
+
+gem "faker"
